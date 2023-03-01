@@ -19,7 +19,7 @@ activity7 = Activity.create(name: 'Canoeing', difficulty: 3)
 activity8 = Activity.create(name: 'Windsurfing', difficulty: 5)
 
 puts "🏕 Seeding signups..."
-Signup.create(camper_id: camper1.id, activity_id: activity2.id, time: 11)
+Signup.create!(camper_id: camper1.id, activity_id: activity2.id, time: 11)
 Signup.create(camper_id: camper1.id, activity_id: activity1.id, time: 12)
 Signup.create(camper_id: camper1.id, activity_id: activity4.id, time: 15)
 Signup.create(camper_id: camper2.id, activity_id: activity2.id, time: 11)
