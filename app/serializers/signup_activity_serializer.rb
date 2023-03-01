@@ -1,4 +1,4 @@
-class SignupSerializer < ActiveModel::Serializer
+class SignupActivitySerializer < ActiveModel::Serializer
   attributes :id, :name, :difficulty
 
   # belongs_to :camper
